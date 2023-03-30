@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+
+}
+
+.pic-holder {
+background-image: url(https://images.unsplash.com/photo-1672243773358-4d5a218d9d5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyN3xibzhqUUtUYUUwWXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60) ;
+height: 50%;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+
+}
+ iframe{
+
+    height: 100%;
+    width: 70%;
+ }
+
